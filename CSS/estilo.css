@@ -1,9 +1,30 @@
-  h1 {
-    color:rgb(179, 179, 73);
-    font-size:80px;
+  p {
+    color:#bca061;
+    text-align:center;
+    font-size:50px;
+    margin-top:200px;
+    font-style:italic;
  }
-
   body {
-    background-color:rgb(238, 8, 46);
+    background-image:url("imagens/Josaphat.jpeg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    background-position:center;
   }
-        
+.gamecub {
+  font-size:50px;
+  margin-top:330px;
+  margin-bottom:50px;
+  text-align:center;
+}
+.destruidor {
+  text-align:center;
+  margin-top:200px;
+}
+.bol {
+  margin-top:-300px;
+}
+
+
+
