@@ -2,10 +2,8 @@
     color:#bca061;
     text-align:center;
     font-size:50px;
-    margin-top:90px;
+    margin-top:640px;
     font-style:italic;
-    -webkit-text-stroke-width:1px;
-    -webkit-text-stroke-color:black;
  }
   body {
     background-image:url("imagens/Josaphat.jpeg");
@@ -15,11 +13,12 @@
     background-position:center;
   }
 .destruidor {
-  text-align:center;
-  margin-top:100px;
-}
-.gamecub {
-  margin-top: 10px;
+  position:absolute;
+  top:110px;  
+  left:0px;
+  right:0px;
+  display:flex;
+  justify-content:center;
 }
 hr {
   margin-top: 100px;
@@ -32,22 +31,23 @@ hr {
   text-align:left;
   font-size:30px;
   color:#bca061;
-  margin-top:-1480px;
-  margin-left:40px;
+  position:absolute;
+  top:30px;
+  left:40px;
   font-family:"Times New Roman", serif;
 }
-.luigi p {
+.borracha {
   margin-top:0px;
   margin-bottom:0px;
 }
 .luigi p:first-child {
-  transform:scalex(1.3);
+  transform:scalex(1.2);
   transform-origin:left;
   letter-spacing:2.2px;
 }
 .luigi p:nth-child(2) {
   font-size:12px;
-  transform:scalex(1.3);
+  transform:scalex(1.1);
   transform-origin:left;
   letter-spacing:2.2px;
   margin-left:4px;
@@ -61,6 +61,7 @@ hr {
   margin-left:300px;
   position:absolute;
   top:45px;
+  left:1470px;
 }
 .jesus a {
   color:#bca061;
